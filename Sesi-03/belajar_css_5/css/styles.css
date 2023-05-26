@@ -1,0 +1,19 @@
+body {
+  background-color: burlywood;
+}
+.tulisan_kiri {
+  text-align: left;
+  color: red;
+}
+.tulisan_kanan {
+  text-align: right;
+  color: green;
+}
+.tulisan_tengah {
+  text-align: center;
+  color: blue;
+}
+.tulisan_justify {
+  text-align: justify;
+  color: brown;
+}
