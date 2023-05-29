@@ -1,1 +1,62 @@
 belajar algoritma selanjutnya diterapkan ke javascript
+
+1.tulis judul algoritma
+2.tulis input input yang diperlukan untuk menghitung luas dan keliling lingkaran
+3.tulis langkah kalkulasi
+4.tulis instruksi untuk tampilkan hasil kalkulasi
+
+
+FLOW:
+  1. yang pertama, siapkan kipas angin. 
+  2. yang kedua, hubungkan kabel kipas angin ke listrik.
+  3. yang ketiga, tekan tombol ON/OFF pada kipas angin.
+  4. yang keempat, atur kecepatan baling-baling kipas angin.
+  5. yang kelima, kipas angin berhasil dihidupkan.
+  
+Pseudocode:
+
+  let kipasAngin, kabelKipas, tombolOnOff, kecepatanKipas
+
+  if (kipasAngin === 'kipas sudah siap'){
+    if (kabelKipas === 'terhubung ke listrik'){
+      console.log('kipas angin terhubung ke listrik')
+    } else if(tombolOnOff === 'on'){
+      console.log('kipas angin menyala')
+    } else if(kecepatanKipas === 2){
+      console.log('kecepatan kipas angin adalah 2')
+    } else{
+      console.log('kipas angin tidak menyala')
+    }
+  }
+
+
+* Luas lingkaran:
+Flow:
+  1. masukan ukuran jari-jari lingkaran
+  2. rumus luas lingkaran = phi * r * r
+  3. kalkulasi luas lingkaran sesuai rumus
+  4. output hasil perhitungan luas lingkaran   
+  
+Pseudocode:
+  
+  let r, luasLingkaran, phi
+  
+  r = prompt('ukuran jari-jari: ')
+  phi = prompt('nilai phi: ')
+  luasLingkaran = phi * r * r
+  console.log(luasLingkaran)
+
+** Keliling lingkaran:
+Flow:
+  1. masukan ukuran jari-jari lingkaran
+  2. rumus keliling lingkaran = 2 * phi * r
+  3. kalkulasi keliling lingkaran sesuai rumus
+  4. output hasil perhitungan keliling lingkaran
+
+Pseudocode:
+  let r, kelilingLingkaran, phi
+  
+  r = prompt('ukuran jari-jari: ')
+  phi = prompt('nilai phi: ')
+  kelilingLingkaran = 2 * phi * r
+  console.log(kelilingLingkaran)
