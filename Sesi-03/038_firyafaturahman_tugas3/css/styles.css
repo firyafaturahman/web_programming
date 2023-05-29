@@ -192,7 +192,6 @@ nav {
 .profile-details .profile-intro .social {
   margin-top: 10px;
   margin-bottom: 25px;
-  cursor: pointer;
 }
 
 .profile-details .profile-intro .social i {
@@ -238,7 +237,6 @@ nav {
   text-align: center;
   color: #fff;
   transition: 0.5s;
-  cursor: pointer;
 }
 
 .row .icon:hover {
@@ -259,14 +257,6 @@ nav {
   margin-top: 1.5rem;
 }
 
-.container-btn:hover {
-  scale: 1.05;
-}
-
-.container-btn:active {
-  scale: 0.95;
-}
-
 .download-btn {
   background-color: #3b6c11;
   color: #fff;
@@ -275,7 +265,6 @@ nav {
   border: none;
   font-weight: bold;
   font-size: 1.02rem;
-  cursor: pointer;
 }
 
 .form {
@@ -309,15 +298,6 @@ nav {
   font-weight: bold;
   font-size: 1.05rem;
   width: 100%;
-  cursor: pointer;
-}
-
-.form button[type="submit"]:hover {
-  scale: 1.05;
-}
-
-.form button[type="submit"]:active {
-  scale: 0.95;
 }
 
 /* RESPONSIVE DESIGN */
@@ -359,10 +339,6 @@ nav {
 }
 
 @media (max-width: 576px) {
-  .profile-image img {
-    width: 100%;
-  }
-
   .dropdown_menu {
     left: 2rem;
     width: unset;
