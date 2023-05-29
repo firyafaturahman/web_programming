@@ -1,4 +1,4 @@
-// * Luas lingkaran:
+// * Algoritma - Luas lingkaran:
 // Flow:
 //   1. masukan ukuran jari-jari lingkaran
 //   2. rumus luas lingkaran = phi * r * r
@@ -6,7 +6,6 @@
 //   4. output hasil perhitungan luas lingkaran
 
 // Pseudocode:
-
 //   let r, luasLingkaran, phi
 
 //   r = prompt('ukuran jari-jari: ')
@@ -14,16 +13,17 @@
 //   luasLingkaran = phi * r * r
 //   console.log(luasLingkaran)
 
-// let r;
-// let luasLingkaran;
-// let phi;
+// Code:
+//   let r;
+//   let luasLingkaran;
+//   let phi;
 
-// r = prompt("ukuran jari-jari: ");
-// phi = Math.PI;
-// luasLingkaran = phi * r * r;
-// console.log(luasLingkaran.toFixed());
+//   r = prompt("ukuran jari-jari: ");
+//   phi = Math.PI;
+//   luasLingkaran = phi * r * r;
+//   console.log(luasLingkaran.toFixed());
 
-// ** Keliling lingkaran:
+// ** Algoritma - Keliling lingkaran:
 // Flow:
 //   1. masukan ukuran jari-jari lingkaran
 //   2. rumus keliling lingkaran = 2 * phi * r
@@ -38,11 +38,12 @@
 //   kelilingLingkaran = 2 * phi * r
 //   console.log(kelilingLingkaran)
 
-let r;
-let kelilingLingkaran;
-let phi;
+// Code:
+//   let r;
+//   let kelilingLingkaran;
+//   let phi;
 
-r = prompt("ukuran jari-jari: ");
-phi = Math.PI;
-kelilingLingkaran = 2 * phi * r;
-console.log(kelilingLingkaran.toFixed());
+//   r = prompt("ukuran jari-jari: ");
+//   phi = Math.PI;
+//   kelilingLingkaran = 2 * phi * r;
+//   console.log(kelilingLingkaran.toFixed());
