@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar JS 4</title>
+  </head>
+  <body>
+    <h1 id="title"></h1>
+
+    <input type="number" id="nilai" placeholder="Masukan Nilai..." required />
+
+    <button onclick="calculate()">Cek Grade</button>
+
+    <div id="hasil"></div>
+
+    <hr />
+
+    <h2 id="subtitle"></h2>
+
+    <button id="mundur" onclick="hitung('mundur')">Klik untuk mundur</button>
+    <button id="maju" onclick="hitung('maju')">Klik untuk maju</button>
+
+    <div id="hasil_hitung">0</div>
+    <div id="hasil_status"></div>
+    <!-- JS -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>
